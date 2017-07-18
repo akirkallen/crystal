@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Crystal Homework</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+<div class="container">
+		
+
+		<div class="jumbotron" style="background-image: url(assets/images/dblue.jpg)"> 
+			<div class="container">
+				<h1 class="text-center" style="color:green"><strong>Game Of Witches</strong></h1>
+			</dir>
+		</div>
+
+		
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title text-center" >Match This Number to Win</h3>
+					</div>
+
+					<div class="panel-body" style="background: green">
+						<h3 class="text-center" id="targetScore" style="color:yellow"></h3>
+					</div>
+				</div>
+			</div>
+		
+					<div class="col-lg-3">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title text-center">Witch Point Count</h3>
+					</div>
+					<div class="panel-body" style="background: green">
+						<h3 class="text-center" id="yourScore" style="color:yellow"></h3>
+					</div>
+				</div>
+			</div>
+						
+			<div class="col-lg-6">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title text-center">Click Witches To Drive Up Score</h3>
+					</div>
+<div class="panel-body" style="background: green">
+
+
+<div class="flip3d">
+	<div class="back" id="blue"></div>
+	<div class="front"></div>
+</div>
+
+<div class="flip3d">
+	<div class="back1" id="red"></div>
+	<div class="front"></div>
+</div>
+
+<div class="flip3d">
+	<div class="back2" id="green"></div>
+	<div class="front"></div>
+</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title text-center">Win Count</h3>
+					</div>
+					<div class="panel-body" style="background: green">
+						<h3 class="text-center" id="winCount" style="color:yellow">0</h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title text-center">Loss Count</h3>
+					</div>
+					<div class="panel-body" style="background: green">
+						<h3 class="text-center" id="lossCount" style="color: yellow">0</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="assets/js/logic.js"></script>
+</body>
+</html>

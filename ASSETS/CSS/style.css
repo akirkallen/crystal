@@ -1,0 +1,57 @@
+	
+
+
+.flip3d { width:120px; height:120px; margin:10px; float:left; }
+
+.flip3d > .front {
+			position:absolute;
+			transform: perspective(600px) rotateY(0deg);
+			background: url(../images/maggie-smith.jpg); width:120px; height:120px; border-radius: 7px;
+			backface-visibility: hidden;
+			transition: transform .5s linear 0s;
+			background-size: 120px 120px;
+			background-repeat: no-repeat;
+		}
+
+.flip3d > .back {
+			position:absolute;
+			transform: perspective(600px) rotateY(180deg);
+			background: url(../images/500full.jpg); width:120px; height:120px; border-radius: 7px;
+			backface-visibility: hidden;
+			transition: transform .5s linear 0s;
+			background-size: 120px 120px;
+			background-repeat: no-repeat;
+		}
+
+.flip3d > .back1 {
+			position:absolute;
+			transform: perspective(600px) rotateY(180deg);
+			background: url(../images/maleficent-zoom.jpg); width:120px; height:120px; border-radius: 7px;
+			backface-visibility: hidden;
+			transition: transform .5s linear 0s;
+			background-size: 120px 120px;
+			background-repeat: no-repeat;
+		}
+
+.flip3d > .back2 {
+			position:absolute;
+			transform: perspective(600px) rotateY(180deg);
+			background: url(../images/wizard_of_oz.jpg); width:120px; height:120px; border-radius: 7px;
+			backface-visibility: hidden;
+			transition: transform .5s linear 0s;
+			background-size: 120px 120px;
+			background-repeat: no-repeat;
+		}
+
+.flip3d:hover > .front {
+			transform: perspective(600px) rotateY(-180deg);
+}
+.flip3d:hover > .back {
+			transform: perspective(600px) rotateY(0deg);
+}
+.flip3d:hover > .back1 {
+			transform: perspective(600px) rotateY(0deg);
+}
+.flip3d:hover > .back2 {
+			transform: perspective(600px) rotateY(0deg);
+}
